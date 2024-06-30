@@ -3,22 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Project</title>
+    <title>My Projects</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
-        <a href="index.html">About Me</a>
-        <a href="project.html">My Project</a>
+        <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="project.html">My Projects</a></li>
+        </ul>
     </nav>
-    <div class="container">
-        <h1>My Tic Tac Toe Project</h1>
-        <p>This is a simple Tic Tac Toe game that I built using the C programming language.</p>
-        <h2>Executable File</h2>
-        <p><a href="yesnt.exe" download>Download Tic Tac Toe Game</a></p>
-        <h2>Source Code</h2>
-        <p><a href="yesnt.cpp" download>Download Source Code</a></p>
-    </div>
-    <script src="script.js"></script>
+
+    <main>
+        <section id="projects">
+            <h1>My Tic Tac Toe Project</h1>
+            <div class="project-item">
+                <img src="tic-tac-toe.jpg" alt="Tic Tac Toe Game">
+                <div class="download-section">
+                    <a href="yesnt.exe" class="download-link">Download Executable</a>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="c_plus_plus_image.jpg" alt="source code">
+                <div class="download-section">
+                    <a href="yesnt.cpp" class="download-link">Download Source Code</a>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
