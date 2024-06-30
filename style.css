@@ -27,8 +27,14 @@ main {
 }
 
 #profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
+     width: 200px;  /* Set the desired width */
+    height: 200px; /* Set the desired height to be equal to the width */
+    object-fit: cover;  /* This ensures the image covers the entire area without distortion */
+    border-radius: 0;   /* Remove any border-radius or set it to 0 to ensure it's not circular */
+}
+#profile-pic-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
 }
